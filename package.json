@@ -5,8 +5,8 @@
   "bin": "./bin/cli.js",
   "main": "avrgirl-arduino.js",
   "scripts": {
-    "test-mac": "DEBUG=* node bin/cli.js flash -f ./test/test.hex -a arduboy -p '/dev/tty.usbmodem1411' -v",
-    "test-linux": "DEBUG=* node bin/cli.js flash -f ./test/test.hex -a arduboy -p '/dev/ttyACM0' -v",
+    "test-mac": "DEBUG=* node bin/cli.js flash -f ./junk/hex/arduboy/rund.cpp.leonardo.hex -a arduboy -p '/dev/tty.usbmodem1411' -v",
+    "test-linux": "DEBUG=* node bin/cli.js flash -f ./junk/hex/arduboy/rund.cpp.leonardo.hex -a arduboy -p '/dev/ttyACM0' -v",
     "test": "gulp test",
     "cover": "istanbul cover ./tests/*.spec.js && istanbul-coveralls"
   },
